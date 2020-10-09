@@ -1,13 +1,14 @@
 # Verify and Troubleshoot your WSL2 Environment Setup
 
-## Action item
+## Action Item
 
 1. Open your "Terminal" application using "Spotlight Search"
-2. Type `curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/manual-setup-check.sh | bash 2> /dev/null`
+2. Type `curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/wsl-manual-setup-validator.sh | bash 2> /dev/null`
 
-## Check your work
+## Check Your Work
 
-If all checks pass, you have completed your environment setup and are ready to move on!
+If all checks pass, you have completed your environment setup and are ready to
+move on!
 
 <!-- ## Troubleshooting
 
