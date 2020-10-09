@@ -54,7 +54,7 @@ Below are some options to try for specific issues.
    rvm implode
    ```
 
-   This will remove RVM entirely. Follow the instructions in Step 3 to reinstall RVM.
+   This command will remove RVM entirely. Follow the instructions in Step 3 to reinstall RVM.
 
 ### `learn whoami` Command Not Found / `learn` Produces `oj.bundle` Error
 
@@ -100,7 +100,7 @@ Below are some options to try for specific issues.
    gem install bundler
    ```
 
-   This will clear out any gems that have already been installed. At the moment,
+   The `bundle clean --force` command will clear out any gems that have already been installed. At the moment,
    you will only need the `learn-co` and `bundler` gems, so this reinstalls
    them.
 
