@@ -2,7 +2,7 @@
 
 ## Action Item
 
-1. Open your "Terminal" application using "Spotlight Search"
+1. Open your "Ubuntu" application
 2. Type `curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/wsl-manual-setup-validator.sh | bash 2> /dev/null`
 
 ## Check Your Work
