@@ -92,6 +92,8 @@ If you see a message ending with `â€œNote: to remove, delete, or uninstall nvmâ€
 > ```sh
 > curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
 > ```
+>
+> Close and reopen the "Terminal" application, then run `nvm` again.
 
 #### Verify Node is Installed
 
