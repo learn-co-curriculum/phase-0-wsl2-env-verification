@@ -111,6 +111,19 @@ If you see a message starting with “-> v14.13.0” (or any number higher than 
 > nvm install node
 > ```
 
+### Enabling Virtualization In the BIOS
+
+For most Windows machines, enabling WSL and the Virtual Machine Platform should be enough to
+get Ubuntu running. Some devices, however, require an additional step - enabling hardware
+virtualization in the BIOS.
+
+> **WARNING:** Fiddling with your BIOS settings can **trash your PC**! Be careful when making
+> changes. Consult your manufacturer’s help pages or search for online advice about your
+> specific make and model.
+
+Accessing your BIOS is typically done by rebooting your computer and hitting a specific key,
+usually `DEL`, `F2`, or `F10`, as the system starts. In the BIOS, look for **Virtualization
+Technology, VTx** or something similar.
 
 <!-- ## Troubleshooting
 
@@ -224,3 +237,5 @@ This error is typically due to issues in the `~/.learn-config` file.
     name by running `echo $HOME`. 
 
 3.  Save the `.learn-config` file and try running `learn whoami`.  -->
+
+##
