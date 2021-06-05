@@ -42,7 +42,7 @@ To confirm that RVM is working, run:
 rvm
 ```
 
-If you see a long message ending in `“For additional documentation please visit https://rvm.io”`, RVM is installed. 
+If you see a long message ending in `“For additional documentation please visit https://rvm.io”`, RVM is installed.
 
 > If the command `rvm` is not recognized, do the following in your terminal:
 >
@@ -63,18 +63,18 @@ To confirm Ruby is installed, run:
 rvm list
 ```
 
-If you see `=* ruby-2.7.2`, Ruby is installed and 2.7.2 set as the default version and you are all set for Ruby.
+If you see `=* ruby-2.7.3`, Ruby is installed and 2.7.3 set as the default version and you are all set for Ruby.
 
-> If you do not see `ruby-2.7.2` at all, install it with the following command:
-> 
+> If you do not see `ruby-2.7.3` at all, install it with the following command:
+>
 > ```sh
-> rvm install ruby-2.7.2
+> rvm install ruby-2.7.3
 > ```
 
-> If `ruby-2.7.2` is listed, but is not preceded by `=*`, make it the default version by running:
-> 
+> If `ruby-2.7.3` is listed, but is not preceded by `=*`, make it the default version by running:
+>
 > ```sh
-> rvm use 2.7.2 --default
+> rvm use 2.7.3 --default
 > ```
 
 #### Verify NVM is installed
@@ -85,10 +85,10 @@ To confirm NVM is installed, run:
 nvm
 ```
 
-If you see a message ending with `“Note: to remove, delete, or uninstall nvm…”`, NVM is installed. 
+If you see a message ending with `“Note: to remove, delete, or uninstall nvm…”`, NVM is installed.
 
 > If the `nvm` command is not recognized, install NVM with the following command:
-> 
+>
 > ```sh
 > curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
 > ```
@@ -103,10 +103,10 @@ To confirm Node is installed, run:
 nvm list
 ```
 
-If you see a message starting with “-> v14.13.0” (or any number higher than this), a version of Node is installed that will work for this course. 
+If you see a message starting with “-> v14.13.0” (or any number higher than this), a version of Node is installed that will work for this course.
 
 > If you don't see this number, install a new version of Node:
-> 
+>
 > ```
 > nvm install node
 > ```
@@ -125,7 +125,8 @@ Accessing your BIOS is typically done by rebooting your computer and hitting a s
 usually `DEL`, `F2`, or `F10`, as the system starts. In the BIOS, look for **Virtualization
 Technology, VTx** or something similar.
 
-<!-- ## Troubleshooting
+<!--
+## Troubleshooting
 
 Below are some options to try for specific issues.
 
@@ -137,8 +138,8 @@ Below are some options to try for specific issues.
    first:
 
    ```sh
-   rvm use 2.7.2
-   rvm --default use 2.7.2
+   rvm use 2.7.3
+   rvm --default use 2.7.3
    ```
 
    Close and reopen the terminal again, and rerun `rvm list`.
@@ -181,8 +182,8 @@ Below are some options to try for specific issues.
    regarding `PATH`, try running the following first:
 
    ```sh
-   rvm use 2.7.2
-   rvm --default use 2.7.2
+   rvm use 2.7.3
+   rvm --default use 2.7.3
    ```
 
    Then reinstall the Learn gem and test it again with:
@@ -221,9 +222,9 @@ Below are some options to try for specific issues.
 
 ### `learn` Commands Produce `psych` Gem Errors
 
-This error is typically due to issues in the `~/.learn-config` file. 
+This error is typically due to issues in the `~/.learn-config` file.
 
-1.  Run `code ~/.learn-config`. This file should only have three lines in it, 
+1.  Run `code ~/.learn-config`. This file should only have three lines in it,
     similar to the example below:
 
     ```sh
@@ -234,8 +235,7 @@ This error is typically due to issues in the `~/.learn-config` file.
 
 2.  Check for any typos or extra content. Make sure the `:learn_directory` path
     is valid and has your computer's username after `/Users/`. You can confirm this
-    name by running `echo $HOME`. 
+    name by running `echo $HOME`.
 
-3.  Save the `.learn-config` file and try running `learn whoami`.  -->
-
-##
+3.  Save the `.learn-config` file and try running `learn whoami`.
+-->
