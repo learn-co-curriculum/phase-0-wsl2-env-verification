@@ -11,6 +11,8 @@ $ curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manua
 
 ## Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LOAbYZmRc9I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If all checks pass, you have completed your environment setup and are ready to
 move on!
 
@@ -100,7 +102,7 @@ NVM is installed.
 > If the `nvm` command is not recognized, install NVM with the following command:
 >
 > ```console
-> $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+> $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 > ```
 >
 > Close and reopen the "Terminal" application, then run `nvm` again.
@@ -124,14 +126,14 @@ this), a version of Node is installed that will work for this course.
 
 ### Enabling Virtualization In the BIOS
 
-For most Windows machines, enabling WSL and the Virtual Machine Platform should be enough to
-get Ubuntu running. Some devices, however, require an additional step - enabling hardware
-virtualization in the BIOS.
+For most Windows machines, enabling WSL and the Virtual Machine Platform should
+be enough to get Ubuntu running. Some devices, however, require an additional
+step - enabling hardware virtualization in the BIOS.
 
-> **WARNING:** Fiddling with your BIOS settings can **trash your PC**! Be careful when making
-> changes. Consult your manufacturer’s help pages or search for online advice about your
-> specific make and model.
+> **WARNING:** Fiddling with your BIOS settings can **trash your PC**! Be
+> careful when making changes. Consult your manufacturer’s help pages or search
+> for online advice about your specific make and model.
 
-Accessing your BIOS is typically done by rebooting your computer and hitting a specific key,
-usually `DEL`, `F2`, or `F10`, as the system starts. In the BIOS, look for **Virtualization
-Technology, VTx** or something similar.
+Accessing your BIOS is typically done by rebooting your computer and hitting a
+specific key, usually `DEL`, `F2`, or `F10`, as the system starts. In the BIOS,
+look for **Virtualization Technology, VTx** or something similar.
