@@ -76,7 +76,7 @@ version and you are all set for Ruby.
 > If you do not see `ruby-2.7.4` at all, install it with the following command:
 >
 > ```console
-> $ vm install ruby-2.7.4 --default
+> $ rvm install ruby-2.7.4 --default
 > ```
 >
 > If `ruby-2.7.4` is listed, but is not preceded by `=*`, make it the default
