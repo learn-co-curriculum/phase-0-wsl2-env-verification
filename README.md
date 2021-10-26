@@ -16,7 +16,7 @@ $ curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manua
 If all checks pass, you have completed your environment setup and are ready to
 move on!
 
-It may be that you are setup correctly, but the validator script can't tell. If
+It may be that you are set up correctly, but the validator script can't tell. If
 there is some sort of error, revisit the instructions for the item that is not
 passing. If you can run the commands listed in the **Check Your Work** section
 of that item, you should be all set and can disregard the validator.
