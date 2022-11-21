@@ -3,7 +3,7 @@
 ## Action Item
 
 1. Open your "Ubuntu" application
-2. Type the following:
+2. Run the following command:
 
 ```console
 $ curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/wsl-phase-0-manual-setup-validator.sh | bash 2> /dev/null
